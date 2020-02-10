@@ -1,0 +1,84 @@
+Data from: 
+Brennnan, M. Kathleen, Gregory J. Hakim, and Edward Blanchard-Wrigglesworth. "Arctic sea ice variability during the Instrumental Era." Geophysicsal Research Letters. 
+
+Original datafile name: Brennan_etal_2019_sie_recons.nc
+
+Methods: 
+
+Coordinates:
+    HadCRUT4_time                 (cru_time) Years temperature observations for HadCRUT4 are available (1850-2018)
+    GISTEMP_time                  (gis_time) Years temperature observations for GISTEMP are available (1880-2015)
+    Berkeley_Earth_time           (be_time) Years temperature observations for Berkeley Earth are available (1850-2013)
+    ensemble_member               (nens) Number of prior ensemble members
+    iteration                     (it)  Monte Carlo iterations for which a new prior ensemble was drawn for each
+
+Variables: 
+    sie_MPI_HadCRUT4              (cru_time, nens, it)  Reconstruction of total Arctic sea ice extent from 1850-2018 
+                                                        using PMIP3 MPI past1000 run as the model prior and 
+                                                        assimilating HadCRUT4 temperature observations.  
+
+    sie_MPI_HadCRUT4_97_5         (cru_time)            97.5th percentile of total Arctic sea ice extent across all 
+                                                        ensemble members and Monte Carlo iterations for sie_MPI_HadCRUT4.
+
+    sie_MPI_HadCRUT4_2_5          (cru_time)            2.5th percentile of total Arctic sea ice extent across all
+                                                        ensemble members and Monte Carlo iterations for sie_MPI_HadCRUT4.
+
+    sie_MPI_GISTEMP               (gis_time, nens, it)  Reconstruction of total Arctic sea ice extent from 1880-2015 
+                                                        using PMIP3 MPI past1000 run as the model prior and 
+                                                        assimilating GISTEMP temperature observations.
+
+    sie_MPI_GISTEMP_97_5          (gis_time)            97.5th percentile of total Arctic sea ice extent across all
+                                                        ensemble members and Monte Carlo iterations for sie_MPI_GISTEMP.
+
+    sie_MPI_GISTEMP_2_5           (gis_time)            97.5th percentile of total Arctic sea ice extent across all
+                                                        ensemble members and Monte Carlo iterations for sie_MPI_GISTEMP.
+
+    sie_MPI_Berkeley_Earth        (be_time, nens, it)   Reconstruction of total Arctic sea ice extent from 1850-2013 
+                                                        using PMIP3 MPI past1000 run as the model prior and 
+                                                        assimilating Berkeley Earth temperature observations.
+
+    sie_MPI_Berkeley_Earth_97_5   (be_time)             97.5th percentile of total Arctic sea ice extent across all
+                                                        ensemble members and Monte Carlo iterations for 
+                                                        sie_MPI_Berkeley_Earth.
+
+    sie_MPI_Berkeley_Earth_2_5    (be_time)             2.5th percentile of total Arctic sea ice extent across all
+                                                        ensemble members and Monte Carlo iterations for 
+                                                        sie_MPI_Berkeley_Earth.
+
+    sie_CCSM4_HadCRUT4            (cru_time, nens, it)  Reconstruction of total Arctic sea ice extent from 1850-2018 
+                                                        using PMIP3 CCSM4 past1000 run as the model prior and 
+                                                        assimilating HadCRUT4 temperature observations. 
+
+    sie_CCSM4_HadCRUT4_97_5       (cru_time)            97.5th percentile of total Arctic sea ice extent across all
+                                                        ensemble members and Monte Carlo iterations for sie_CCSM4_HadCRUT4.
+
+    sie_CCSM4_HadCRUT4_2_5        (cru_time)            2.5th percentile of total Arctic sea ice extent across all
+                                                        ensemble members and Monte Carlo iterations for sie_CCSM4_HadCRUT4.
+
+    sie_CCSM4_GISTEMP             (gis_time, nens, it)  Reconstruction of total Arctic sea ice extent from 1880-2015 
+                                                        using PMIP3 CCSM4 past1000 run as the model prior and 
+                                                        assimilating GISTEMP temperature observations.
+
+    sie_CCSM4_GISTEMP_97_5        (gis_time)            97.5th percentile of total Arctic sea ice extent across all
+                                                        ensemble members and Monte Carlo iterations for sie_CCSM4_GISTEMP. 
+
+    sie_CCSM4_GISTEMP_2_5         (gis_time)            2.5th percentile of total Arctic sea ice extent across all
+                                                        ensemble members and Monte Carlo iterations for sie_CCSM4_GISTEMP.
+
+    sie_CCSM4_Berkeley_Earth      (be_time, nens, it)   Reconstruction of total Arctic sea ice extent from 1850-2013 
+                                                        using PMIP3 CCSM4 past1000 run as the model prior and 
+                                                        assimilating Berkeley Earth temperature observations.
+
+    sie_CCSM4_Berkeley_Earth_97_5 (be_time)             97.5th percentile of total Arctic sea ice extent across all
+                                                        ensemble members and Monte Carlo iterations for
+                                                        sie_CCSM4_Berkeley_Earth.
+
+    sie_CCSM4_Berkeley_Earth_2_5  (be_time)             2.5th percentile of total Arctic sea ice extent across all
+                                                        ensemble members and Monte Carlo iterations for
+                                                        sie_CCSM4_Berkeley_Earth.
+
+
+
+
+
+
